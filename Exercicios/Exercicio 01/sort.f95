@@ -4,7 +4,7 @@ program sort
     integer, dimension(99) :: Int_List
     integer :: Swap, Counter, Counter2, List_Len
 
-    read *, List_Len
+    List_Len = 10
 
     if((List_Len > 0) .and. (List_Len < 100)) then
 
