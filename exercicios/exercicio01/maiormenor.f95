@@ -15,9 +15,9 @@ program maiormenor
         Menor = Int_List(1)
 
         do Counter = 2, List_Len
-            if(Maior > Int_List(Counter)) then
+            if(Maior < Int_List(Counter)) then
                 Maior = Int_List(Counter)
-            else if(Menor < Int_List(Counter)) then
+            else if(Menor > Int_List(Counter)) then
                 Menor = Int_List(Counter)
             end if
         end do
