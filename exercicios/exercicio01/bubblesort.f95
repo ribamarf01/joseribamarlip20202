@@ -1,4 +1,4 @@
-program sort
+program bubblesort
     implicit none
 
     integer, dimension(99) :: Int_List
@@ -30,4 +30,4 @@ program sort
 
     end if
 
-end program sort
+end program bubblesort
