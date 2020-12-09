@@ -35,6 +35,7 @@ Derivação:
 => A = A * (B + (C * A))
 ```
 Árvore:
+
 ![questao01](questao01.png)
 
 ### Questão 02
@@ -55,6 +56,7 @@ Derivação:
 => B = C * (A * C + B)
 ```
 Árvore:
+
 ![questao02](questao02.png)
 
 ### Questão 03
@@ -74,4 +76,5 @@ Derivação:
 => A = A * (B + (C))
 ```
 Árvore:
+
 ![questao03](questao03.png)
