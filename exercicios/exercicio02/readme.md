@@ -1,4 +1,5 @@
 # Exercício 02 de Linguagens de programação
+## Correção: OK. 1,0 Ponto.
 
 ## Nome: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
