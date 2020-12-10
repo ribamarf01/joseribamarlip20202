@@ -134,9 +134,9 @@ Notação escolhida:
 <rule> é a ação que ocorra no switch caso <value> == <reachValue> seja verdadeiro.
 
 <switch_stmt> -> switch (<value>) { <stmt> } 
-<stmt> -> case '<reachValue>': <rule> break;
-        | case '<reachValue>': <rule> break; <stmt>
-        | default: <rule> break;
+<stmt> -> case <reachValue>: <rule>; break; <stmt>
+        | case '<reachValue>': <rule>; break; <stmt>
+        | default: <rule>; break;
 
 Em <stmt> -> case '<reachValue>': <rule> break; <stmt> é para o switch continuar a receber casos sem quebrar a notação.
 ```
