@@ -135,8 +135,7 @@ Notação escolhida:
 
 <switch_stmt> -> switch (<value>) { <stmt> } 
 <stmt> -> case <reachValue>: <rule>; break; <stmt>
-        | case '<reachValue>': <rule>; break; <stmt>
         | default: <rule>; break;
 
-Em <stmt> -> case '<reachValue>': <rule> break; <stmt> é para o switch continuar a receber casos sem quebrar a notação.
+Em <stmt> -> case <reachValue>: <rule> break; <stmt> é para o switch continuar a receber quantos casos o programador quiser colocar e para receber um default (caso final do switch, caso todos os outros não sejam verdadeiros) sem quebrar a notação.
 ```
