@@ -1,5 +1,5 @@
 # Exercício 03 de Linguagens de programação
-
+## Correção: OK.
 ## Nome: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
 
