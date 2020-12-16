@@ -117,8 +117,13 @@ Deve-se alterar a semântica na regra 2.
                         else if (<var[2]>.actual_type = real) and (<var>[3].actual_type = real)
                             then real
                         end if
-    ``` 
+    ```
 
+E adicionar um predicado a regra.
+
+    ```
+        <var>[2].actual_type == <var>[3].actual_type
+    ```
 * As sentenças de atribuição não precisam ter os mesmos tipos em ambos os lados do operador de atribuição.
 
     ```
