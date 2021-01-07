@@ -1,9 +1,10 @@
 # Atividade 04 de Linguagens de Programação 2020.2
+# Correção: 1,7 Pontos.
 
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
 
-### Questão 01
+### Questão 01 - 0,7 Pontos
 
 Enunciados:
 
@@ -29,6 +30,23 @@ Enunciados:
     <var> → A | B | C
     <expression> → <var> {(+ | -) <var>}
     ```
+    
+    **Correção**: 
+    
+    Aqui: 
+
+    ```
+    <stmt_list> → <stmt> {; <stmt_list>}
+    ```
+    
+    Deveria ser:
+
+    ```
+    <stmt_list> → <stmt> {; <stmt>}
+    ```
+    
+    Caso contrário, _\<stmt_list\>_ sempre restaria ao final, sem derivar outros símbolos. 
+
 
 - Converta a BNF do Exemplo 3.3 para EBNF.
 
@@ -51,7 +69,7 @@ Enunciados:
            | <id>
     ```
 
-### Questão 02
+### Questão 02 - 1,0 ponto.
 
 Enunciado:
 

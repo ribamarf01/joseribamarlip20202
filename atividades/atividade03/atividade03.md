@@ -1,4 +1,5 @@
 # Atividade 03 de Linguagens de Programação 2020.2
+# Correção: 1,5 pontos
 
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
