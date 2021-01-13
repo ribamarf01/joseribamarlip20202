@@ -36,12 +36,12 @@ out: ...`
 Resolução:
 ```
 Mdw(do <stml_list> while <expr_>, <state_>)
-    if (Msl(<stmt_list>, <state_>) == error) 
+    if (Msl(<stmt_list>, <state_>) == error) // Checa se a expressão pode ser feita e então atualiza o estado.
         then error
-        else Δ = if Mb(<stmt_list>, <state_>) == undef
+        else Δ = if Mb(<stmt_list>, <state_>) == undef // Checa se a expressão de continuação/parada é possível.
             then error
-            else if Mb(<stmt_list>, <state_>) == false 
-                then <state_>
-                else Mdw(do <stml_list> while <expr_>, <state_>)
+            else if Mb(<stmt_list>, <state_>) == false // Se der falso -> 
+                then <state_> // Retorna o estado atualizado e sai do loop.
+                else Mdw(do <stml_list> while <expr_>, <state_>) // Se o estado é verdadeiro, chama a função novamente.
 ```
 
