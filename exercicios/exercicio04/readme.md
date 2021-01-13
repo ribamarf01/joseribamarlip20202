@@ -1,5 +1,5 @@
 # Exercício 04 de Linguagens de Programação 2020.2
-
+# Correção: OK
 ## Nome: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
 
