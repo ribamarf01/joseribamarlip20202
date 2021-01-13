@@ -38,11 +38,10 @@ Resolução:
 Mdw(do <stml_list> while <expr_>, <state_>)
     if (Msl(<stmt_list>, <state_>) == error) // Checa se a expressão pode ser feita, senão então atualiza o estado.
         then error
-        else <state_> = Msl(<stmt_list>, <state_>)
-            Δ = if Mb(<expr_>, <state_>) == undef // Checa se a expressão de continuação/parada é possível.
-                then error
-                else if Mb(<expr_>, <state_>) == false // Se der falso -> 
-                    then <state_> // Retorna o estado atualizado e sai do loop.
-                    else Mdw(do <stml_list> while <expr_>, Msl(<stmt_list>, <state_>) // Se o estado é verdadeiro, chama a função novamente.
+        else Δ = if Mb(<expr_>, <state_>) == undef // Checa se a expressão de continuação/parada é possível.
+            then error
+            else if Mb(<expr_>, <state_>) == false // Se der falso -> 
+                then Msl(<stmt_list>, <state_>) // Retorna o estado atualizado e sai do loop.
+                else Mdw(do <stml_list> while <expr_>, Msl(<stmt_list>, <state_>) // Se o estado é verdadeiro, chama a função novamente.
 ```
 
