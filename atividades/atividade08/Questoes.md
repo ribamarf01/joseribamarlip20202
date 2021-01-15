@@ -7,11 +7,9 @@
 
 Solução:
 ```
-expr
-case_stmt: if (expr) goto case
-           if (case_stmt) goto case_stmt
-           goto default
-default: goto case
+expr1 // Atribuição de valor a variável que será testada no switch. Ex.: x = 10.
+case_stmt: if (expr2) goto case // Se expr2 for verdadeiro, entra no case. expr2 é usado para comparar o valor de expr1 com expr2.
+           goto case_stmt // Senão chama outro case_stmt
 case: ...
       goto out
 out: ...
@@ -36,17 +34,15 @@ levam a um **goto** para um rótulo _case_ correspondente. Você pode representa
 ### Questão 02
 
 Solução:
+
 ```
-Msw(switch EXPR case EXPR do STMT_LIST, S)
-    if Mb(EXPR, S) == undef
-        then error
-        else if Mb(EXPR, S) == false
-            then Msw(switch EXPR case EXPR do STMT_LIST, Msl(STMT_LIST, S))
+Msw(switch(<expr>) { <case_stmt> }, S)
+    if Mb(<case_stmt>.<default>) // Checa se é o case default
+        then Msl(<case_stmt>.<stmt_list>, S)
+        else if Me(<expr>, S) == Me(<case_stmt>.<expr>) // Compara o valor de <expr> com <case_stmt>.<expr>
+            then Msl(<case_stmt>.<stmt_list>, S) // Se verdadeiro, retorna a lista de comandos do case
             else 
-                then if Msl(STMT_LIST, S) == error
-                    then error
-                    else
-                        then Msl(STMT_LIST, S)
+                then Msw(<expr>, Msl(<case_stmt>.<case_stmt>, S)) // Senão retorna a função, mandando novamente a expressão e atualizando o estado para o proxímo case.
 ```
 
 **Comentário**:
