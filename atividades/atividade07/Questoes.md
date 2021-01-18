@@ -2,6 +2,8 @@
 
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
+## Correção: 0,5
+Sua gramática não calcula o valor.
 
 ### Questão 1
 
