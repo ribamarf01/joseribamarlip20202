@@ -2,6 +2,7 @@
 
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
+## Correção: 1,5
 
 ### Questão 01:
 
