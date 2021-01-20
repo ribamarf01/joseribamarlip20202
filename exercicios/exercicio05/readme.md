@@ -26,7 +26,7 @@ a + 2 * b - 1 > 1
 a + 2b - 1 > 1
 a + 2b > 2
 b > 2 - a / 2
-Pre: {b > 2- a / 2}
+Pre: {b > 2 - a / 2}
 ```
 
 ### Questão 02 (Item _a_ do Problema 24 e Item _a_ do Problema 25, ambos do Capítulo 03 do Livro)
@@ -77,4 +77,5 @@ else:
 2 * a > 1
 {a > 1 / 2}
 
+Logo: (a > 1 / 2) > (a > 0), então a pre-condição geral irá ser a > 1 / 2.
 ```
