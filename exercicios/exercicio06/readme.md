@@ -9,11 +9,11 @@ Considere a representação dos números reais como duas partes inteiras separad
 
 1. Uma expressão regular que represente os números reais na notação apresentada.
 
-    [0-9]+ . [0-9]*
+    [0-9]+ .? [0-9]*
 
 2. Um diagrama de estados que indique a aceitação ou não de um número real na notação apresentada.
 
-    !['diagramaEstado'](diagramaEstado.png)
+    !['diagramaEstado'](./diagramaEstado.png)
 
 ### Questão 02
 
