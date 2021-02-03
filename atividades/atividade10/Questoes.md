@@ -90,4 +90,5 @@ while linha:
     print(f"Next token is: {tokens['EOF']}, Next lexeme is EOF")
 ```
 
-Arquivo: lexIdent
+Arquivo: front.py
+Execução: !['execução'](./Capturar.png)
