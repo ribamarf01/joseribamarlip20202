@@ -2,6 +2,7 @@
 
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
+### Correção: 0,8
 
 ### Compute a pré-condição mais fraca para cada uma das seguintes construções de linguagem e suas pós condições:
 
@@ -69,6 +70,7 @@ x < 0 / 3
 
 Logo: (x < 0) > (x < -1), a pré condição geral será {x < 0}
 ```
+## Correção: a condição mais geral é  x < -1, pois é a intersecção dos dois intervalos.
 
 5. 
 if ( x > y ) 
