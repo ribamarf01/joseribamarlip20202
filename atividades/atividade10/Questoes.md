@@ -2,6 +2,7 @@
 
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
+### Correção: 2,0
 
 ### Questão 01
 Problema 28 do Capítulo 03 do Livro.
