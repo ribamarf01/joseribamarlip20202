@@ -51,7 +51,7 @@ Sub2 chama Sub3
 
 1. Sub1
 
-    R.: Primeira declaração, Sub1 é chamado de Main
+    R.: Segunda declaração, pois a uma declaração de X dentro de Sub1
 
 2. Sub2
 
@@ -112,8 +112,8 @@ Ponto | Variável Visível
 -|-
 1 | B, C e D de definição 2, A de definição 1 (B e C de definição 1 estão ocultos)
 2 | C, D e E de definição 3, B de definição 2 e A de definição 1 (C e D de definição 2 estão ocultos, B e C de definição 1 estão ocultos)
-3 | E de definição 3, B, C e D de definição 2 e A de definição 1 (C e D de definição 3 estão ocultos, B e C de definição 1 estão ocultos)
-4 | E de definição 3, D de definição 2 e A, B e C de definição 1 (C e D de definição 3 estão ocultos, B e C de definição 1 estão ocultos)
+3 | B, C e D de definição 2 e A de definição 1 (B e C de definição 1 estão ocultos)
+4 | A, B e C de definição 1 (C e D de definição 3 estão ocultos, B e C de definição 1 estão ocultos)
 
 ### Questão 04
 Considere o seguinte esqueleto de programa em C:
