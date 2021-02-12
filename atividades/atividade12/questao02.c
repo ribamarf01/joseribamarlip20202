@@ -48,8 +48,6 @@ int main() {
 
     timeSpent = (double) (end - begin) / CLOCKS_PER_SEC;
     printf("Tempo gasto em segundos com 5 casas decimais, vetor de monte: %.5f\n", timeSpent);
-
-    //Primeiro vetor
-
+    
     return 0;
 }

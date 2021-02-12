@@ -99,6 +99,6 @@ Escreva três funções em C ou C++: uma que declare um grande vetor inteiro de 
 
 Código: questao02.c
 
-Execução: !['execute'](capturar.PNG)
+Execução: !['execute'](Capturar.PNG)
 
 O vetor estático é criado antes da propria execução do programa, logo ele não gastará tempo em sua execução ou um tempo minimo. No vetor de pilha, ele só existe na pilha e logo após é descartado, o que faz que ele só gaste a memória enquanto é utilizado. O vetor de monte é o que mais gasta tempo em sua criação, poís em sua criação sempre é necessário alocar um espaço de memória em sua criação e ao final de seu uso, gasta o tempo de liberar o mesmo espaço de memória.
