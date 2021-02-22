@@ -1,3 +1,4 @@
+# Correção: 1,0
 # Converta as rotinas de análise sintática descendente recursiva para <expr>, <term> e <factor> dadas na seção 4.4.1 para Python. 
 # Aqui, não precisamos do código executável, pois o próprio livro não apresenta assim. 
 # Mas nada impede de você fazer uma versão mais completa. 
