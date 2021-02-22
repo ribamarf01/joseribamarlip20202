@@ -4,6 +4,7 @@
 ## Matrícula: 472687
 
 ### Questão 01
+#### Correção: 0,3
 
 Responda ou forneça as definições em cada item:
 
@@ -13,6 +14,7 @@ Responda ou forneça as definições em cada item:
     + O lado direito por sua vez é conhecido como o valor da variável, poís se encontra do outro lado da atribuição.
 
 2. Após o projeto e implementação de uma linguagem, quais são os quatro tipos de vinculações que podem ocorrer em um programa?
+## Correção: perguntei os tipos de vinculação, não o momento em que elas podem ocorrer.
 
     - Tempo de compilação;
     - Tempo de projeto de compilador;
@@ -84,6 +86,7 @@ Responda ou forneça as definições em cada item:
         ```
 
 ### Questão 02
+#### Correção: 0,5
 
 Escreva três funções em C ou C++: uma que declare um grande vetor inteiro de 10000 posições estaticamente, outra que declare o mesmo grande vetor na pilha e outra que crie o mesmo grande vetor no monte. Chame cada um desses subprogramas 100 mil vezes e mostre na tela o tempo gasto em cada tipo de função. Explique os resultados. Em um ambiente Linux com o compilador gcc, use a função clock do cabeçalho time.h para medir o tempo. Veja o exemplo abaixo:
 ```
