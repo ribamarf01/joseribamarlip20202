@@ -2,6 +2,7 @@
 
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
+### Correção: 1,0
 
 ### Mostre uma análise sintática completa, incluindo o conteúdo da pilha de análise sintática, a cadeia de entrada e ações para a cadeia id * (id + id), usando a gramática e a tabela de análise sintática da seção 4.5.3 do livro adotado na disciplina. Coloque o resultado em questao02.md ou questao02.pdf.
 
