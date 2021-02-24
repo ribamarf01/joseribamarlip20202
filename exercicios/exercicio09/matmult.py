@@ -4,9 +4,8 @@ def matrizEmLinha(m, ordem):
         m.append(i)
 
 def acessoMatrizEmLinha(m, i, j, ordem):
+    
     return m[i * ordem + j] 
-
-
 
 def multiplicarMatrizesEmLinha(m1, m2, ordem):
     mAux = []
