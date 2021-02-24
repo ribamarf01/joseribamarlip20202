@@ -1,3 +1,4 @@
+# Correção: OK
 def matrizEmLinha(m, ordem):
     
     for i in range(ordem * ordem):
