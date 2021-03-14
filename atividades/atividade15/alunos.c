@@ -1,3 +1,4 @@
+// Correção: 0,8
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
@@ -82,7 +83,7 @@ int main(int argc, char *argv[]) {
     }
     return 0;
 }
-
+// Você deveria ter usado o campo consolidado para decidir como fazer a comparação.
 bool comparaEstudante(Estudante a, Estudante b) {
 
     if(strcmp(a.nome, b.nome) != 0) return false;
