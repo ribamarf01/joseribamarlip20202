@@ -15,7 +15,7 @@ void estaContida(char str1[], char str2[]) {
             for (int j = 1; j < tam2; j++) {
                 if (str1[i + j] == str2[j]) check++;
             }
-
+            
             if(check == tam2) {
                 found = true;
                 break;
