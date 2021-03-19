@@ -1,3 +1,4 @@
+// Correção: 1,5
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -25,6 +26,8 @@ bool equalString(char *string1, char *string2) {
     return true;
 }
 
+// Você não aloca memória no monte para garantir que
+// as strings ocupam posição válidas
 char *strConcat(char *string1, const char *string2) {
     int count = countStringLen(string1);
     char *str = string1 + count;
