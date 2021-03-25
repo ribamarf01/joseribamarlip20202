@@ -3,7 +3,7 @@
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
 
-### Questão 01
+### Questão 01 - 0,9
 
 1. a * b - 1 + c
 
@@ -24,12 +24,14 @@
 5. a > b xor c or d <= 17
 
     (((a > b)<sup>1</sup> xor c)<sup>2</sup> or (d <= 17)<sup>3</sup>)<sup>4</sup>
+    
+**(((a>b)<sup>1</sup>xor c)<sup>3</sup> or (d<=17)<sup>2</sup>)<sup>4</sup>**
 
 6. -a + b
 
     (-(a + b)<sup>1</sup>)<sup>2</sup>
 
-### Questão 02
+### Questão 02 - 0,5
 
 i, j = 10, 10
 
@@ -51,7 +53,7 @@ Direita:
    sum2 = 41 + (10/2)
    sum2 = 41 + 5 = 46
 
-### Questão 03
+### Questão 03 - 0,5
 
 Esquerda:
     x = 3
