@@ -3,7 +3,7 @@
 ## Aluno: José Ribamar Silva Soares Filho
 ## Matrícula: 472687
 
-### Questão 01
+### Questão 01 - 0,0 pontos
 
 Questão em C/C++:
 
@@ -14,7 +14,7 @@ int main() {
     int k, j;
     scanf("%d", &j);
     k = (j + 13) / 27;
-
+    // Aqui ele vai continuar no laço, quando deveria sair. Você deveria ter mudado a condição para k <= 10.
     while(k > 10) {
         k = k + 1;
         i = 3 * k + 1;
@@ -32,7 +32,7 @@ while k > 10:
     i = 3 * k + 1
 ```
 
-### Questão 02
+### Questão 02 - 0,5 pontos
 
 Questão em C/C++:
 ```
@@ -80,7 +80,7 @@ elif k == 6 or k == 7 or k == 8:
     j = k - 2;
 ```
 
-### Questão 03
+### Questão 03 - 1,0 pontos
 
 ```
 j = -3;
